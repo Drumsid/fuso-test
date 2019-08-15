@@ -1,0 +1,91 @@
+#tso .steps{
+	padding: 10px 20px;
+    background: #eeeeee;
+    border: 1px solid #d0d0d0;
+    margin-top: 10px;
+    display: table;
+    width: 100%;
+}
+#tso .head{
+	
+}
+
+input[type=range] {
+	width: 100%;
+	height: 18px;
+	padding: 0;	
+	/* стили вашего ползунка */
+}
+input[type=range]::-webkit-slider-thumb {
+	box-sizing: content-box;
+	/* стили вашего бегунка */
+}
+input[type=range]::-moz-range-thumb {
+	/* снова стили вашего бегунка */
+}
+input[type=range]::-ms-thumb { /* должен следовать после -webkit- */
+    border: 1px solid grey;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #f9f9f9;
+}
+input[type=range]::-webkit-slider-runnable-track {
+	/* стили вашей дорожки*/
+}
+input[type=range]::-moz-range-track {
+
+}
+input[type=range]::-ms-track { /* должен следовать после -webkit- */
+	height: 5px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 6px 0;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+	background-color: #ff0000;
+	border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border-radius: 10px;
+}
+input[type=range]::-moz-range-progress {
+	background-color: #ff0000;	
+}
+
+/*
+.ui-widget.ui-widget-content{
+	background: #f9f9f9;
+	border-radius: 0;
+	border: none !important;
+}
+.ui-widget-header{
+	background: #e3000f !important;
+	border-radius: 0;
+}
+.ui-slider .ui-slider-handle{
+	top: -0.2em !important;
+	border-color: #e3000f !important;
+}
+.ui-slider .ui-slider-handle:fucus{
+	outline: none;
+}
+.model.active,
+.model:hover{
+	color: #e20009;
+}
+.model img{
+	max-width: 160px;
+}
+.tso-res{
+	padding-top: 30px;
+}
+.tso-res .total{
+	font-size: 26px;
+	line-height: normal;
+}
+#tso .value input{
+	text-align: right;
+}*/

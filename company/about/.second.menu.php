@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Команда", 
+		"/company/about/team/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Наши преимущества", 
+		"/company/about/advantages/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Партнеры", 
+		"/company/about/partners/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сертификаты", 
+		"/company/about/sert/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вакансии", 
+		"/company/about/jobs/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Галерея", 
+		"/company/about/gallery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"3D тур ДЦ г. Долгопрудный", 
+		"/tour/dolgoprudniy/", 
+		Array(), 
+		Array("target"=>"target=\"_blank\""), 
+		"" 
+	),
+	Array(
+		"3D тур ДЦ г. Мытищи", 
+		"/tour/mitishchi/", 
+		Array(), 
+		Array("target"=>"target=\"_blank\""), 
+		"" 
+	)
+);
+?>
